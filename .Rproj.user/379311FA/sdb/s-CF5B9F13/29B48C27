@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1487302636345.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "29B48C27",
+    "lastKnownWriteTime" : 0,
+    "last_content_update" : 1487302636345,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "AD37CD51",
+        "caption" : "filteredlog",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=filteredlog&cache_key=AD37CD51",
+        "displayedObservations" : 6090,
+        "environment" : "",
+        "object" : "filteredlog",
+        "preview" : 0,
+        "totalObservations" : 6090,
+        "variables" : 8
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

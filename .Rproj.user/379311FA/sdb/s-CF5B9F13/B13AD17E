@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "filterCURR <- function(flightlog){\n  logfile <- read.csv(flightlog,header = FALSE, stringsAsFactors=FALSE)\n  currlog <- logfile[logfile$V1 %in% c(\"CURR\"), ]\n  categories <- c(\"type\", \"time\", \"throttle\", \"voltage\", \"current\", \"reg_volt\",\"total_current\")\n  colnames(currlog) <- categories\n  currlog <- currlog[,1:length(categories)]\n  currlog[,categories[2:length(categories)]] <- as.numeric(unlist(currlog[,categories[2:length(categories)]]))\n  filteredlog <- currlog[which(currlog$current>2000),]\n  filteredlog$minutes <- filteredlog$time/60000000\n  \n  return(filteredlog)\n}",
+    "created" : 1487216926030.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "483812312",
+    "id" : "B13AD17E",
+    "lastKnownWriteTime" : 1487302951,
+    "last_content_update" : 1487302951070,
+    "path" : "~/GitHub/pixhawk-parser/filterCurrent.R",
+    "project_path" : "filterCurrent.R",
+    "properties" : {
+        "docOutlineVisible" : "0",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

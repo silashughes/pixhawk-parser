@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1487216708650.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "7029B422",
+    "lastKnownWriteTime" : 8088781767041965872,
+    "last_content_update" : 1487216708650,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "780DDCD4",
+        "caption" : "currlog",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=currlog&cache_key=780DDCD4",
+        "displayedObservations" : "8039",
+        "environment" : "",
+        "object" : "currlog",
+        "preview" : "0",
+        "totalObservations" : "8039",
+        "variables" : "16"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}
